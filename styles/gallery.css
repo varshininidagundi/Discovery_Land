@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.cnt {
+    display: flex;
+    flex-direction: column;
+    height: 100% /* Set the container height to the viewport height */
+}
+
+.upper-cnt {
+    /* Additional styles if needed */
+    height: 67vh;
+    font-family: messina-sans;
+}
+
+.bg {
+    background-image: url(../asset/navimg.png);
+    background-size: cover; /* Make the background image cover the entire space */
+    background-repeat: no-repeat;
+    height: 100%; /* Set the height to 100% to cover the parent container */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.logo-nav-cnt{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.logo-cnt{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 144.26px;
+    justify-content: flex-start;
+}
+.logo{
+    height: 45px;
+    width: 170px;
+}
+.navbar{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 144.26px;
+    justify-content: end;
+}
+.nav-span{
+    margin-left: 40px;
+}
+.big-gallery-title{
+    font-size:calc(20.66667px + 3.06667vw);
+    color: white;
+}
